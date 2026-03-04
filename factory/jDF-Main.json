@@ -1,0 +1,9 @@
+{
+	"name": "jDF-Main",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c45e65b5-2b85-4397-ba3b-97505bfbdea3",
+		"tenantId": "7a4f7135-255a-4cb1-84cd-f2c9a9ff91ae"
+	}
+}
