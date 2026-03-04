@@ -1,0 +1,191 @@
+{
+	"name": "SourceDataset_49h",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "STATION",
+				"type": "String"
+			},
+			{
+				"name": "DATE",
+				"type": "String"
+			},
+			{
+				"name": "SOURCE",
+				"type": "String"
+			},
+			{
+				"name": "LATITUDE",
+				"type": "String"
+			},
+			{
+				"name": "LONGITUDE",
+				"type": "String"
+			},
+			{
+				"name": "ELEVATION",
+				"type": "String"
+			},
+			{
+				"name": "NAME",
+				"type": "String"
+			},
+			{
+				"name": "REPORT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "CALL_SIGN",
+				"type": "String"
+			},
+			{
+				"name": "QUALITY_CONTROL",
+				"type": "String"
+			},
+			{
+				"name": "WND",
+				"type": "String"
+			},
+			{
+				"name": "CIG",
+				"type": "String"
+			},
+			{
+				"name": "VIS",
+				"type": "String"
+			},
+			{
+				"name": "TMP",
+				"type": "String"
+			},
+			{
+				"name": "DEW",
+				"type": "String"
+			},
+			{
+				"name": "SLP",
+				"type": "String"
+			},
+			{
+				"name": "AA1",
+				"type": "String"
+			},
+			{
+				"name": "AT1",
+				"type": "String"
+			},
+			{
+				"name": "AT2",
+				"type": "String"
+			},
+			{
+				"name": "AT3",
+				"type": "String"
+			},
+			{
+				"name": "AT4",
+				"type": "String"
+			},
+			{
+				"name": "AT5",
+				"type": "String"
+			},
+			{
+				"name": "AT6",
+				"type": "String"
+			},
+			{
+				"name": "AU1",
+				"type": "String"
+			},
+			{
+				"name": "AU2",
+				"type": "String"
+			},
+			{
+				"name": "AU3",
+				"type": "String"
+			},
+			{
+				"name": "AW1",
+				"type": "String"
+			},
+			{
+				"name": "AW2",
+				"type": "String"
+			},
+			{
+				"name": "AW3",
+				"type": "String"
+			},
+			{
+				"name": "GA1",
+				"type": "String"
+			},
+			{
+				"name": "GA2",
+				"type": "String"
+			},
+			{
+				"name": "GA3",
+				"type": "String"
+			},
+			{
+				"name": "GD1",
+				"type": "String"
+			},
+			{
+				"name": "GD2",
+				"type": "String"
+			},
+			{
+				"name": "GD3",
+				"type": "String"
+			},
+			{
+				"name": "MA1",
+				"type": "String"
+			},
+			{
+				"name": "MV1",
+				"type": "String"
+			},
+			{
+				"name": "MW1",
+				"type": "String"
+			},
+			{
+				"name": "MW2",
+				"type": "String"
+			},
+			{
+				"name": "OC1",
+				"type": "String"
+			},
+			{
+				"name": "REM",
+				"type": "String"
+			},
+			{
+				"name": "EQD",
+				"type": "String"
+			}
+		]
+	}
+}
